@@ -17,10 +17,12 @@
   "build": {
     "appId": "com.budgettracker.app",
     "productName": "AI Budget Tracker",
+    "asar": false,
     "directories": {
       "output": "release"
     },
     "files": [
+      ".env",
       "dist/**/*",
       "electron-main.cjs",
       "package.json",

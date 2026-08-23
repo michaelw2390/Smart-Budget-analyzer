@@ -1,5 +1,6 @@
-const { app, BrowserWindow } = require('electron');
 const path = require('path');
+require('dotenv').config({ path: path.join(__dirname, '.env') });
+const { app, BrowserWindow } = require('electron');
 const { fork } = require('child_process');
 
 let mainWindow;
@@ -36,7 +37,7 @@ app.on('ready', () => {
   });
 
   // Give the server a couple seconds to boot up before opening the window
-  setTimeout(createWindow, 2000);
+  setTimeout(createWindow, 3500);
 });
 
 // Quit when all windows are closed.
