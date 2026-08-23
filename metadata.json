@@ -1,0 +1,8 @@
+{
+  "name": "Smart Budget & Statement Analyzer",
+  "description": "AI-powered bank statement analyzer and multi-horizon budget tracker with month vs year views, retroactive Excel tracker imports, automated categorization across recurring expenses, groceries, dining, entertainment, and utilities, and interactive visual charts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
